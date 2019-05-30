@@ -16882,7 +16882,7 @@ class TCPDF {
 					if (($dom[$key]['value'] == 'strong') OR ($dom[$key]['value'] == 'b')) {
 						$dom[$key]['fontstyle'] .= 'B';
 					}
-					if (($dom[$key]['value'] == 'em') OR ($dom[$key]['value'] == 'i')) {
+					if (($dom[$key]['value'] == 'em') OR ($dom[$key]['value'] == 'i') OR ($dom[$key]['value'] == 'blockquote')) {
 						$dom[$key]['fontstyle'] .= 'I';
 					}
 					if ($dom[$key]['value'] == 'u') {
